@@ -1,0 +1,15 @@
+snip 1
+auntContactInfo		["paula","smith,"1234 Main Street","St. Louis","MO",12345] 
+console.log(auntContactInfo);
+Paula Smith 1234 Main Street St. Louis MO 12345
+
+snip 2
+produce		["apples,"oranges]
+frozen		["broccli,"ice cream"]--> ["broccli,"ice cream","hashbrowns"]
+console.log(frozen);
+broccli ice cream hashbrowns
+
+snip 3
+movieLibrary		["bambi","E.T.","Toy Story"]--> ["bambi","E.T.","Toy Story","Zoro"]--> ["bambi","Beetlejuice","Toy Story","Zoro"]
+console.log(movieLibrary);
+bambi Beetlejuice Toy Story Zoro
