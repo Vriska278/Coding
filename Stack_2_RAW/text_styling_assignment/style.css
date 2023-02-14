@@ -1,0 +1,20 @@
+h1{
+    background-color: black ;
+    color: aqua;
+    font-family: monospace;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: rebeccapurple;
+    font-family: sans-serif;
+    font-style: italic;
+}
+h3{
+    text-align: right;
+    background-color: lightblue;
+    text-decoration-line: underline;
+    font-family: cursive;
+    font-weight: lighter;
+}
