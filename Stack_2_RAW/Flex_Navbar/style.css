@@ -13,12 +13,11 @@
 }
 .nav-links{
     display: flex;
-    /* align-items: ; */
     justify-content: space-between;
     list-style: none;
+    gap: 10px;
 }
 a{
-    margin: 10px;
     text-decoration: none;
     color: white;
     font-family: 'Roboto', sans-serif;
