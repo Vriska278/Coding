@@ -2,33 +2,29 @@
     width: 1000px;
     background-color: silver;
 }
+.flexed{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
 .heading{
     font-family: monospace;
     font-size: 35pt;
     text-align: center;
 }
 .row-1{
-    display: flex;
-    height: 300px;
-    align-items: center;
     justify-content: space-around;
     background-color: lightskyblue;
     margin: 10px 10px;
 }
 
 .row-2{
-    display: flex;
-    height: 300px;
-    align-items: center;
     justify-content: space-evenly;
     background-color: palevioletred;
     margin: 20px 10px;
 }
 
 .row-3{
-    display: flex;
-    height: 300px;
-    align-items: center;
     justify-content: space-around;
     background-color: white;
     margin: 10px 10px 10px 10px;
