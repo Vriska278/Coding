@@ -1,0 +1,24 @@
+.blue{
+    display: inline-block;
+    background-color: blue;
+    height: 100%;
+    width: 500px;
+
+}
+.white{
+    display: inline-block;
+    background-color: white;
+    height: 100%;
+    width: 500px;
+}
+.red{
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+    width: 500px;
+}
+.flag{
+    border: 5px solid black;
+    width: 1508px;
+    height: 700px;
+}

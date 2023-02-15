@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.flag{
+    /* border: 5px solid black; */
+    width: 1500px;
+    height: 700px;
+}
+.blue{
+    display: inline-block;
+    height: 45%;
+    width: 25%;
+    background-color: darkblue;
+    margin: 0px;
+    border: 0px;
+}
+.upper-stripe{
+    display: inline-block;
+    height: 45%;
+    width: 75%;
+    background-color: red;
+    margin: 0px;
+    border: 0px;
+}
+.lower-stripe{
+    height: 54%;
+    width: 100%;
+}
+.red-stripe{
+    background-color: red;
+    height: 16.6%;
+    margin: 0px;
+    border: 0px;
+}
+.white-stripe{
+    background-color: white;
+    height: 16.6%;
+    margin: 0px;
+    border: 0px;
+}
+#star{
+
+}

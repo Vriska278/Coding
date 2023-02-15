@@ -1,0 +1,38 @@
+#search{
+    display: block;
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: #79c7c8 solid 2px;
+    color: #79c7c8;
+    font-size: x-large;
+    margin-left: 75px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#plus{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #00d1b2;
+    color: white;
+    border-radius: 50%;
+    border: #00d1b2 solid 2px;
+    font-size: xx-large;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+#create-account{
+    display: block;
+    height: 50px;
+    width: 270px;
+    background-color: #2b78e4;
+    color: white;
+    border: black solid 4px;
+    margin-left: 75px;
+    font-size: x-large;
+    box-shadow: 5px 5px black;
+}
