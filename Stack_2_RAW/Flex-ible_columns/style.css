@@ -1,0 +1,42 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 18pt;
+    height: 30px;
+    flex: 1;
+    margin: 5px;
+    padding-left: 10px;
+}
+.col-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 18pt;
+    height: 30px;
+    flex: 2;
+    margin: 5px;
+    padding-left: 10px;
+}
+.col-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 18pt;
+    height: 30px;
+    flex: 3;
+    margin: 5px;
+    padding-left: 10px;
+}
