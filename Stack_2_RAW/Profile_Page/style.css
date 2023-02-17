@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.border{
+    border-left: 4px solid gray;
+    border-right: 4px solid gray;
+    border-bottom: 4px solid gray;
+}
+nav{
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.nav-content{
+    width: 930px;
+    margin: auto;
+}
+.nav-title{
+    color: white;
+}
+.nav-links{
+    width: 500px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.profile-settings a,
+.view-more a{
+    color: lightskyblue;
+}
+.btn{
+    background-color: #17a2b8;
+    padding: 5px 12px;
+    margin-right: 10px;
+    color: white;
+}
+
+.main{
+    justify-content: center;
+    align-items: flex-start;
+}
+/* section{
+    flex: 2;
+}
+aside{
+    flex: 1;
+} */
+.card{
+    position: relative;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    /* border: 4px solid grey; */
+}
+.top-bar{
+    background-color: #17a2b8;
+    flex: 1;
+    width: 100%;
+
+}
+.user-box{
+    display: flex;
+    flex:2;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.main-pfp{
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 21pt;
+    padding: 0px;
+    flex: 1;
+}
+.location{
+    font-size: 21pt;
+    flex: 1;
+}
+.user-info{
+    flex: 1;
+}
+.profile-settings{
+    display: flex;
+    margin-top: 10px;
+    flex: 1;
+}
+img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.education-bar{
+    background-color: #333333;
+    border: 4px solid #333333;
+    font-size: 20pt;
+    color: white;
+    padding: 10px 30px;
+}
+.education-text{
+    /* border: 4px solid grey; */
+    line-height: 2rem;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.request-bar{
+    background-color: #333333;
+    border: 4px solid #333333;
+    font-size: 20pt;
+    color: white;
+    padding: 10px;
+}
+.noti{
+    border-radius: 50%;
+    border: 2px solid gray;
+    font-size: 20pt;
+    padding: 0 5px;
+}
+.connection-bar{
+    background-color: #333333;
+    border: 4px solid #333333;
+    font-size: 20pt;
+    color: white;
+    padding: 10px;
+}
+.friend{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.friend-pfp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.friend-name{
+    font-size: 20pt;
+}
+.accept-deny{
+    background-color: transparent;
+    border: transparent;
+
+}
+.request-content{
+    padding: 20px;
+}
+.connection-content{
+    padding: 20px;
+}
+.view-more{
+    border-top: 2px solid gray;
+    font-size: 15pt;
+    padding: 10px 20px;
+}
+.request-button{
+    height: 40px;
+}
