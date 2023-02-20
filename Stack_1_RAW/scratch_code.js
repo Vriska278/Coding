@@ -1,11 +1,13 @@
-var x = 5;
-    
-function addToX(amount) {
-    return x + amount;
-    console.log("hello there");
+var number = 1;
+var letters = ["A", "B", "C", "D", "E"]
+function compute(){
+    for(var i = 0; i < letters.length; i++){
+        if(i == 1){
+            number = number + number * number
+            return number + letters[i]
+        }
+    }
+    return number + letters[i]
 }
-    
-console.log(x);
-var result = addToX(-10);
-console.log(result);
-console.log(x);
+var answer = compute();
+console.log(answer);
