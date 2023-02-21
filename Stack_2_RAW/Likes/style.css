@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-color: lightgray;
+
+}
+/* nav  */
+nav{
+    margin: 0px auto;
+    height: 50px;
+    width: 900px;
+    background-color: black;
+    padding: 0px 20px;
+}
+.nav-Title{
+    color: white;
+    font-size: 3rem;
+}
+/* title  */
+.title{
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+/* main content  */
+.main{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* column1 */
+.column1{
+    width: 300px;
+    height: 900px;
+}
+.profile{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+img{
+    height: 150px;
+}
+.edit-Profile{
+    font-size: 1.5rem;
+    color: skyblue;
+}
+.profile-Name{
+    font-size: 3rem;
+}
+/* column2 */
+.column2{
+    width: 500px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.posts{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+}
+/* row1  */
+.row1{
+    height: 100px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.feed-Name{
+    font-size: 2rem;
+}
+#like-Counter1{
+    font-size: 1.4rem;
+    margin-left: 35px;
+}
+#like-Counter2{
+    font-size: 1.4rem;
+}
+#like-Counter3{
+    font-size: 1.4rem;
+    margin-left: 55px;
+}
+#like1{
+    height: 25px;
+    width: 100px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+#like2{
+    height: 25px;
+    width: 100px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+#like3{
+    height: 25px;
+    width: 100px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+/* row2  */
+.row2{
+    height: 100px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.4rem;
+}

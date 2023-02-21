@@ -22,7 +22,5 @@ var lifesAnswers = [
 ];
 function oracle(){
   var answer = lifesAnswers[Math.floor(Math.random()*lifesAnswers.length)]
-  var future = document.querySelector(".output")
-  future.innerText = answer
-}
+ }
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav>
+    <h1 class="nav-Title">Network</h1>
+  </nav>
+  <!-- title -->
+  <h1 class="title">Your Feed</h1>
+  <!-- main content -->
+  <div class="main">
+    <!-- column1 -->
+    <div class="column1">
+      <div class="profile">
+        <img src="./user-circle.png" alt="profile picture">
+        <a class="edit-Profile" href="">Add an Avatar</a>
+        <p class="profile-Name">James Doe</p>
+      </div>
+    </div>
+    <!-- column2 -->
+    <div class="column2">
+      <div class="posts">
+        <div class="row1">
+          <p class="feed-Name">Neil M</p>
+          <p id="like-Counter1">9 like(s)</p>
+          <button id="like1" onclick="addLike1()">Like</button>
+        </div>
+        <div class="row2">
+          <p>I just set up this new discord bot, let me <br> know what you all think. <a href="#">link</a></p>
+        </div>
+      </div>
+      <div class="posts">
+        <div class="row1">
+          <p class="feed-Name">Nichole K</p>
+          <p id="like-Counter2">12 Like(s)</p>
+          <button id="like2" onclick="addLike2()">Like</button>
+        </div>
+        <div class="row2">
+          <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+        </div>
+      </div>
+      <div class="posts">
+        <div class="row1">
+          <p class="feed-Name">Jim R</p>
+          <p id="like-Counter3">9 Like(s)</p>
+          <button id="like3" onclick="addLike3()">Like</button>
+        </div>
+        <div class="row2">
+          <p>I can't stop listening to the <a href="#">new album.</a><br>Who else is liking it?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
