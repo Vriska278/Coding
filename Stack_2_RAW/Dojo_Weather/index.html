@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- nav  -->
+  <div class="nav">
+    <h1>DojoWeather</h1>
+    <ul>
+      <li onclick="alertMe()"><a href="#">Burbank</a></li>
+      <li onclick="alertMe()"><a href="#">Chicago</a></li>
+      <li onclick="alertMe()"><a href="#">Dallas</a></li>
+    </ul>
+  </div>
+  <!-- sub header  -->
+  <div class="sub-header">
+    <h2>San Jose</h2>
+    <div class="temp-control">
+      <p>show temperature in </p>
+      <select name="temp-select" onchange="tempChange()" id="temp-select">
+        <option value="Farenheight">F</option>
+        <option value="Celcius">C</option>
+      </select>
+    </div>
+  </div>
+  <!-- main content  -->
+  <div class="main">
+    <div class="weather-card">
+      <h2>Today</h2>
+      <img src="./assets/some_rain.png" alt="Some Rain">
+      <p class="image-label">some rain</p>
+      <div class="temp-numbers">
+        <p id="temp1" class="high-temp">75°</p>
+        <p id="temp2" class="low-temp">65°</p>
+      </div>
+    </div>
+    <div class="weather-card">
+      <h2>Tomorrow</h2>
+      <img src="./assets/some_sun.png" alt="Some Sun">
+      <p class="image-label">some sun</p>
+      <div class="temp-numbers">
+        <p id="temp3" class="high-temp">80°</p>
+        <p id="temp4" class="low-temp">66°</p>
+      </div>
+    </div>
+    <div class="weather-card">
+      <h2>Friday</h2>
+      <img src="./assets/some_clouds.png" alt="Some Clouds">
+      <p class="image-label">some clouds</p>
+      <div class="temp-numbers">
+        <p id="temp5" class="high-temp">69°</p>
+        <p id="temp6" class="low-temp">61°</p>
+      </div>
+    </div>
+    <div class="weather-card">
+      <h2>Saturday</h2>
+      <img src="./assets/some_sun.png" alt="Some Sun">
+      <p class="image-label">some sun</p>
+      <div class="temp-numbers">
+        <p id="temp7" class="high-temp">78°</p>
+        <p id="temp8" class="low-temp">70°</p>
+      </div>
+    </div>
+  </div>
+  <!-- cookie popup -->
+  <div class="cookie-message">
+    <h2>Stop! Cookie time</h2>
+    <div class="cookie-body">
+      <img src="./assets/cookie.png" alt="Cookie Icon">
+      <p>We use cookies (sadly not the edible ones) to personalize content and ads,<br> to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+      <button onclick="deleteMe()" class="hide-cookie">I Accept</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
