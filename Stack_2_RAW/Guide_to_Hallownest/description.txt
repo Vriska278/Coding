@@ -1,4 +1,4 @@
-@Absolute Radiance is the final boss of Godmaster in Hollow Knight. She is the perfect form of the Radiance and sits at the peak of the Pantheon of Hallownest.
+Absolute Radiance is the final boss of Godmaster in Hollow Knight. She is the perfect form of the Radiance and sits at the peak of the Pantheon of Hallownest.
 @Alubas are enemies in Hollow Knight. They are gentle, passive gliders who prefer to be near acid waters. It is said they are attracted to the resting places of beings of great power.
 @Amblooms are enemies in Hollow Knight. They are simple-minded crawling mushrooms who do not attack directly.
 @Armoured Squits are enemies in Hollow Knight. They are descendants of the Squit, bred exclusively for battle in the Colosseum of Fools.
@@ -8,17 +8,17 @@
 @Baldurs are enemies in Hollow Knight. They are small, crawling creatures who defend themselves by rolling into a ball. A stronger variant called the Sharp Baldur is bred to fight in the Colosseum of Fools.
 @Battle Obbles are enemies in Hollow Knight. These bulbous creatures were raised in the Colosseum of Fools for combat. The Obble is their wild relative.
 @Belflies are enemies in Hollow Knight. They are quick, highly volatile flying creatures who dive at prey with no sense of self-preservation.
-Bluggsacs are enemies in Hollow Knight. They are placid clusters of fluid sacs which occasionally produce a foul-smelling egg.
-Booflies are enemies in Hollow Knight. They are hovering, docile bugs who peacefully float around in Kingdom's Edge.
-Broken Vessel is one of the main bosses in Hollow Knight. It blocks the way to the Monarch Wings. Lost Kin is its dream variant.
-The Brooding Mawlek is a hidden boss in Hollow Knight as well as a Colosseum of Fools mini-boss.
-The Nailmaster Brothers Oro & Mato are a dual quest boss in Hollow Knight introduced in Godmaster. They sit at the top of the Pantheon of the Master in Godhome.
-Carver Hatchers are enemies in Hollow Knight. They are flying creatures who spawn Dirtcarvers when prey is nearby.
-Charged Lumaflies are enemies in Hollow Knight. They cluster together in small swarms, building up static charges.
-The Collector is a hidden boss in Hollow Knight. Defeating it grants the Collector's Map.
-Corpse Creepers are enemies in Hollow Knight. They are parasites which hide inside husks, controlling their host's body when the husk is defeated.
-Cowardly Husks are enemies in Hollow Knight. These reanimated bugs used to belong to Hallownest's high society, and their cowardly nature still persists after death.
-Crawlids are enemies in Hollow Knight. They scurry around on the ground in search of food. It is the first enemy encountered in the game and is very easy to deal with.
+@Bluggsacs are enemies in Hollow Knight. They are placid clusters of fluid sacs which occasionally produce a foul-smelling egg.
+@Booflies are enemies in Hollow Knight. They are hovering, docile bugs who peacefully float around in Kingdom's Edge.
+@Broken Vessel is one of the main bosses in Hollow Knight. It blocks the way to the Monarch Wings. Lost Kin is its dream variant.
+@The Brooding Mawlek is a hidden boss in Hollow Knight as well as a Colosseum of Fools mini-boss.
+@The Nailmaster Brothers Oro & Mato are a dual quest boss in Hollow Knight introduced in Godmaster. They sit at the top of the Pantheon of the Master in Godhome.
+@Carver Hatchers are enemies in Hollow Knight. They are flying creatures who spawn Dirtcarvers when prey is nearby.
+@Charged Lumaflies are enemies in Hollow Knight. They cluster together in small swarms, building up static charges.
+@The Collector is a hidden boss in Hollow Knight. Defeating it grants the Collector's Map.
+@Corpse Creepers are enemies in Hollow Knight. They are parasites which hide inside husks, controlling their host's body when the husk is defeated.
+@Cowardly Husks are enemies in Hollow Knight. These reanimated bugs used to belong to Hallownest's high society, and their cowardly nature still persists after death.
+@Crawlids are enemies in Hollow Knight. They scurry around on the ground in search of food. It is the first enemy encountered in the game and is very easy to deal with.
 Crystal Crawlers are enemies in Hollow Knight. They are creatures who use crystal lenses to focus beams of searing light from their backs.
 The Crystal Guardian is an optional boss in Hollow Knight. The Enraged Guardian is its second, stronger and faster form. Both forms have to be beaten to unlock its Journal entry.
 Crystal Hunters are enemies in Hollow Knight. They use their crystalline growths to fire crystals at intruders.
