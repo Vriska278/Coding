@@ -93,3 +93,10 @@
 // }
 // var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
 // console.log(result);
+
+
+function sumIndex(){
+
+
+  console.log("no sum in the array can be found")
+}
