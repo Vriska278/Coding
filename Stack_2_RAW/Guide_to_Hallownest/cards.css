@@ -181,7 +181,7 @@ body {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	/* bottom: 35px; */
+	bottom: 35px;
 }
 .customer-feedback .owl-dot {
 	display: inline-block;
