@@ -49,8 +49,12 @@ $(document).ready(function ($) {
 var carousel = document.querySelector("owl-carousel");
 
 var enemy_names = [];
+var descriptions = [];
+
 
 readTextFile("names.txt");
+readTextFile("description.txt");
+
 
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
@@ -58,8 +62,15 @@ function readTextFile(file) {
     rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
-                let allText = rawFile.responseText;
-                enemy_names = manipulateNames(allText);
+                for (var i = 0; i < rawFile.responseText.length; i++) {
+                    var text = rawFile.responseText[i];
+                }
+                text = rawFile.responseText;
+                if (file === "names.txt") {
+                    enemy_names = manipulateNames(text);
+                } else if (file === "description.txt") {
+                    descriptions = manipulateNames(text);
+                }
             }
             else {
                 console.log("error");
@@ -69,44 +80,45 @@ function readTextFile(file) {
     rawFile.send(null);
 }
 console.log(enemy_names);
+console.log(descriptions);
+
 
 function manipulateNames(text) {
     var names = [];
     text = text.replace("_", " ");
-    text.split("\n").forEach(function (word) {
+    text.split("@").forEach(function (word) {
+        word.replace("@", "");
+        word = word.trim();
         names.push(word);
     });
     return names;
 }
 
-readDescription("description.txt");
+var owl_carousel = document.querySelector(".owl-carousel");
 
-var descriptions = new Array();
+createCard(enemy_names, descriptions);
 
-function readDescription(file) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            if (rawFile.status === 200 || rawFile.status == 0) {
-                let sentences = rawFile.responseText;
-                descriptions = manipulateDescriptions(sentences);
-            }
-            else {
-                console.log("error");
-            }
-        }
-    };
-    rawFile.send(null);
+function createCard(names, descriptions) {
+    for (var i = 0; i < names.length; i++) {
+        var card = document.createElement("div");
+        card.classList.add("feedback-slider-item");
+    
+        var img = document.createElement("img");
+        img.classList.add("center-block");
+        img.classList.add("img-circle");
+        var img_src = names[i].replace(" ", "_");
+        img.src = "Enemy_Images/" + img_src + ".png";
+        card.appendChild(img);
+
+        var name = document.createElement("h3");
+        name.classList.add("customer-name");
+        name.innerText = names[i];
+        card.appendChild(name);
+
+        var p = document.createElement("p");
+        p.innerHTML = descriptions[i];
+        card.appendChild(p);
+
+        owl_carousel.appendChild(card);
+    }
 }
-
-function manipulateDescriptions(text) {
-    var temp = [];
-    text.split("\n").forEach(function (line) {
-        temp.push(line);
-    });
-
-    return temp;
-}
-
-console.log(descriptions);
