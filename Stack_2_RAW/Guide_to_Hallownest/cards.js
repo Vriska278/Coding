@@ -13,7 +13,6 @@ $(document).ready(function ($) {
             "<i class='fa fa-long-arrow-right'></i>"
         ],
         responsive: {
-            // breakpoint from 767 up
             767: {
                 nav: true,
                 dots: false
