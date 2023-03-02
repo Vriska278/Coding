@@ -37,11 +37,11 @@ $(document).ready(function ($) {
             .css("opacity", "1");
     });
     $(".thumb-next").on("click", function () {
-        feedbackSlider.trigger("next.owl.carousel", [300]);
+        feedbackSlider.trigger("next.owl.carousel", [2000]);
         return false;
     });
     $(".thumb-prev").on("click", function () {
-        feedbackSlider.trigger("prev.owl.carousel", [300]);
+        feedbackSlider.trigger("prev.owl.carousel", [2000]);
         return false;
     });
 });
@@ -81,7 +81,6 @@ function readTextFile(file) {
 }
 console.log(enemy_names);
 console.log(descriptions);
-
 
 function manipulateNames(text) {
     var names = [];
