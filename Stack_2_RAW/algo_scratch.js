@@ -95,8 +95,112 @@
 // console.log(result);
 
 
-function sumIndex(){
+// function sumIndex(){
 
 
-  console.log("no sum in the array can be found")
+//   console.log("no sum in the array can be found")
+// }
+
+
+/*
+Write a function that takes in an array and a number of steps to shift the values to the **right** by. 
+Then wrap-around any values to that shift off array's end to the other side so that no data is lost.
+
+Example Function Call: rotateArray(arr, 2)
+Before: [1,2,3,4] 1      [4,1,2,3] 
+Expected Output: [3, 4, 1, 2]
+
+*/
+
+const arr = [1, 2, 3, 4];
+
+function rotateArray(arr, shiftBy) {
+    let newArr = [4,1,2,3];
+    if (shiftBy > 0) {
+        for (let i = arr.length - shiftBy; i < arr.length; i++) {
+            newArr.push(arr[i]);
+        }
+        for (let i = 0; i < arr.length - shiftBy; i++) {
+            newArr.push(arr[i]);
+        }
+    }
+    else if(shiftBy < 0){
+        for(let i = -shiftBy; i < arr.length; i++){
+            newArr.push(arr[i]);
+        }
+        for(let i = 0; i < -shiftBy; i++){
+            newArr.push(arr[i]);
+        }
+    }
+    else{
+        return arr;
+    }
+
+
+    return newArr; // Can also do this in place and return arr if you want an additional challenge!
 }
+
+console.log(rotateArray(arr, 1))
+console.log(rotateArray(arr, -4))
+
+// Bonus Challenge: Allow the ShiftBy to be a negative value to shift left, or a positive value to shift right.
+//[2,3,4,1]  -1
+
+// ------ ****** Part 2 ******--------
+
+/* 
+  Given an array and an index,
+  remove the item at that index.
+  return the removed item
+
+  If index is out of range, return null and don't alter the array
+  
+  No built-in array methods except pop().
+*/
+
+
+function removeIndex(arr, index){
+    if(index >= arr.length || index < 0){
+        return null;
+    }
+    temp = arr[index];
+    for(let i = index; i < arr.length - 1; i++){
+        arr[i] = arr[i + 1];
+    }
+    arr.pop();    
+    
+    return temp;
+}
+
+const arr1 = ["a", "b", "c", "d", "e"]; 
+const removeIdx1 = 1;
+const expected1 = "b";
+// after function call, arr1 should be:
+const arr1Expected = ["a", "c", "d", "e"];
+
+console.log(removeIndex(arr1, 1));
+console.log(arr1);
+
+const arr2 = ["a", "b", "c"];
+const removeIdx2 = 3;
+const expected2 = null;
+const arr2Expected = ["a", "b", "c"];
+
+console.log(removeIndex(arr2, 3));
+console.log(arr2);
+
+const arr3 = ["a", "b", "c"];
+const removeIdx3 = -3;
+const expected3 = null;
+const arr3Expected = ["a", "b", "c"];
+
+console.log(removeIndex(arr3, -3));
+console.log(arr3);
+
+const arr4 = ["cake", "pie", "cookies", "vegetables", "candy"];
+const removeIdx4 = 3;
+const expected4 = "vegetables";
+const arr4Expected =  ["cake", "pie", "cookies", "candy"];
+
+console.log(removeIndex(arr4, 3));
+console.log(arr4);
