@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+
 img {
     height: 20rem;
     width: auto;
@@ -10,7 +17,6 @@ p {
     width: 100%;
 }
 
-
 .nav-bar{
     height: 80px;
     background-color: #2a2a2a;
@@ -18,18 +24,21 @@ p {
     align-items: center;
     justify-content: space-between;
     color: white;
+	line-height: .8;
 }
 
 .nav-bar h1{
     font-size: 2.8rem;
     margin-left: 20px;
+	font-weight: bold;
 }
 
 .nav-bar p{
-    margin-bottom: 10px;
     margin-left: 70px;
-}
+	margin-bottom: 10px;
+	font-size: 1rem;
 
+}
 
 .page-links ul{
     display: flex;
@@ -40,6 +49,7 @@ p {
     text-decoration: none;
     list-style: none;
     margin-right: 90px;
+	padding-top: 15px;
 }
 
 .page-links a{
@@ -110,7 +120,7 @@ p {
 }
 
 .feedback-slider-item p {
-	line-height: 1.875;
+	/* line-height: 1.875; */
 }
 
 .customer-rating {
