@@ -101,6 +101,10 @@ p {
     border-radius: 25px;
 }
 
+.owl-stage{
+	min-height: 100px;
+}
+
 .owl-carousel .owl-item {
     height: fit-content !important;
     width: auto;
@@ -119,9 +123,9 @@ p {
 	font-weight: 500;
 }
 
-.feedback-slider-item p {
-	/* line-height: 1.875; */
-}
+/* .feedback-slider-item p {
+	line-height: 1.875;
+} */
 
 .customer-rating {
 	background-color: #eee;

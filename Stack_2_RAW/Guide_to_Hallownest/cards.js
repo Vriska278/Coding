@@ -4,7 +4,7 @@ $(document).ready(function ($) {
         items: 1,
         nav: true,
         dots: true,
-        autoplay: true,
+        autoplay: false,
         loop: true,
         mouseDrag: true,
         touchDrag: true,
@@ -37,11 +37,11 @@ $(document).ready(function ($) {
             .css("opacity", "1");
     });
     $(".thumb-next").on("click", function () {
-        feedbackSlider.trigger("next.owl.carousel", [2000]);
+        feedbackSlider.trigger("next.owl.carousel", [0]);
         return false;
     });
     $(".thumb-prev").on("click", function () {
-        feedbackSlider.trigger("prev.owl.carousel", [2000]);
+        feedbackSlider.trigger("prev.owl.carousel", [0]);
         return false;
     });
 });
@@ -84,7 +84,7 @@ console.log(descriptions);
 
 function manipulateNames(text) {
     var names = [];
-    text = text.replace("_", " ");
+    text = text.replaceAll("_", " ");
     text.split("@").forEach(function (word) {
         word.replace("@", "");
         word = word.trim();
@@ -105,7 +105,7 @@ function createCard(names, descriptions) {
         var img = document.createElement("img");
         img.classList.add("center-block");
         img.classList.add("img-circle");
-        var img_src = names[i].replace(" ", "_");
+        var img_src = names[i].replaceAll(" ", "_");
         img.src = "Enemy_Images/" + img_src + ".png";
         card.appendChild(img);
 
