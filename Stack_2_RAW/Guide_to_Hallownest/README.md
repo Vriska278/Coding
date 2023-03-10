@@ -58,7 +58,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/Vriska278" target="_blank">Mike Novelle</a>
+Made with :heart: by <a href="https://github.com/Vriska278" target="_blank">Mike Novelle</a> and <a href="https://github.com/tmchuynh" target="_blank">Tina Huynh</a>
 
 &#xa0;
 
